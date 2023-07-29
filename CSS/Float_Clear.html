@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float and clear</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .container{
+            width: 900px;
+            border: 3px solid rgb(124, 53, 138);
+            margin: 33px auto ;
+        }
+        .item{
+            border: 3px solid rgb(235, 168, 168);
+            margin: 12px 4px;
+            padding: 10px 4px;
+            background: rgb(169, 132, 207);
+        }
+        #fruit{
+            float: left;
+            width: 48%;
+        }
+        #computer{
+            float: left;
+            width: 48%;
+        }
+        #vegetable{
+            /* float: left; */
+            clear: both; /* avoid over lapping of boxes */
+            width: 100%;
+        }
+        h3{
+            text-align: center;
+        }
+        p{
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="fruit" class="item">
+            <h3> fruits  </h3>
+            <p id="fruitpara" class="para">Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero ipsa rerum sed molestias quos earum perferendis unde quidem molestiae sint asperiores ipsum, maxime consequatur nam enim assumenda voluptas repellendus minus. Blanditiis dolores error facilis. ipsum dolor sit, amet consectetur adipisicing elit. Deleniti laudantium perferendis odio beatae. Eaque delectus totam deleniti nostrum saepe rerum laboriosam, sed quos voluptatum inventore minus, consequuntur expedita dolorum reiciendis?</p>
+        </div>
+
+        <div id="computer" class="item">
+            <h3> computer  </h3>
+            <p id="computerpara" class="para">Lorem Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem cumque perspiciatis officiis dolores, quos iure harum nihil quod quam veritatis. Culpa voluptatibus, distinctio ea illum consequuntur quis eveniet eos unde animi soluta vero dolor?ipsum dolor sit, amet consectetur adipisicing elit. Deleniti laudantium perferendis odio beatae. Eaque delectus totam deleniti nostrum saepe rerum laboriosam, sed quos voluptatum inventore minus, consequuntur expedita dolorum reiciendis?</p>
+        </div>
+
+        <div id="vegetable" class="item">
+            <h3> vegetable  </h3>
+            <p id="vegetablepara" class="para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti laudantium perferendis odio beatae. Eaque delectus totam deleniti nostrum saepe rerum laboriosam, sed quos voluptatum inventore minus, consequuntur expedita dolorum reiciendis?</p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,180 @@
+body {
+    background-image: url("gym.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: absolute;
+    top: 300px;
+  }
+  /* header{
+        display: block;
+        border: 2px solid green;
+        background-color: rgb(212, 199, 202);
+        border-radius: 29px;
+        /* margin: 19px; 
+        margin-left: 80px;
+    } 
+    */
+  .navprop {
+    /* border: 2px solid green; */
+    background-color: rgb(212, 199, 202);
+    border-radius: 29px;
+    display: flex;
+    margin-left: 23px;
+    width: 1120px;
+    top: 11px;
+    position: absolute;
+    height: 60px;
+    font-family: cursive;
+  }
+  .list {
+    display: flex;
+    padding: 10px 10px;
+    margin: 10px 10px;
+  }
+  #Search {
+    border: 2px solid gainsboro;
+    border-radius: 40px;
+    text-align: center;
+    margin: 20px 30px;
+    position: absolute;
+    right: 0;
+  }
+  img {
+    width: 90px;
+    height: 80px;
+    /* display:inline-block; */
+    /* border: 2px solid red; */
+  }
+  .container {
+    display: flex;
+    margin: -8px -8px;
+
+    background-color: rgb(54, 44, 44);
+    /* border: 2px solid red; */
+  }
+  .intro {
+    /* border: 2px solid red; */
+    position: absolute;
+    /* display: flex; */
+    margin: auto;
+    top: 497px;
+    /* left: 300px; */
+    width: 100%;
+    padding: 10px 10px;
+    box-shadow: 10px 10px 10px rgb(193, 191, 191);
+    background-color: rgb(132, 137, 141);
+  }
+  .heading {
+    text-align: center;
+    color: #e3ecc3;
+  }
+  .heading span {
+    text-decoration: dotted;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+  }
+  .flexbox1{
+    /* border: 2px solid red; */
+    display: flex;
+    background-color: aliceblue;
+    height: 300px;
+    top:630px;
+    /* bottom: 100px; */
+    position: absolute;
+  }
+  .box{
+    display: block;
+    border: 2px solid rgb(130, 113, 113);
+    background-color: rgb(159, 170, 170);
+    margin: 10px;
+    height: 300px;
+    box-shadow: 10px 10px 4px rgb(193, 191, 191);
+
+  }
+  .topic{
+    text-align: center;
+    display: block;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+  }
+  p{
+    text-align: justify;
+    padding: 10px 10px;
+  }
+  .form{
+    display: block;
+    background-color: aliceblue;
+    height: 430px;
+    top:1030px;
+    left: 300px; 
+    margin : 40px;   
+    position: absolute;
+    width: 600px;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .form-group input{
+    text-align: center;
+    display: block;
+    width: 450px ;
+    padding: 3px;
+    border: 2px solid black;
+    margin: 3px auto;
+    font-size: 18px;
+    border-radius: 6px;
+  }
+  .form-group1 input{
+    text-align: center;
+    display: block;
+    width: 450px;
+    padding: 3px;
+    border: 2px solid black;
+    margin: 30px auto;
+    font-size: 18px;
+    border-radius: 6px;
+  }
+  .form-group2 input{
+    text-align: center;
+    display: block;
+    width: 450px;
+    padding: 3px;
+    border: 2px solid black;
+    margin: 30px auto;
+    font-size: 18px;
+    border-radius: 6px;
+  }
+  .form-group3 input{
+    text-align: center;
+    display: block;
+    width: 450px;
+    padding: 3px;
+    border: 2px solid black;
+    margin: 30px auto;
+    font-size: 18px;
+    border-radius: 6px;
+  }
+  .form-group4 input{
+    text-align: center;
+    display: block;
+    width: 425px;
+    padding: 3px;
+    border: 2px solid black;
+    margin: 30px auto;
+    font-size: 18px;
+    border-radius: 6px;
+  }
+  .bottom{
+    display: block;
+    border:2px solid #45a049;
+    background-color: rgb(59, 58, 58);
+    top: 1450px;
+    position: absolute;
+    width: 100%;
+    
+  }
+  .bottom p{
+    text-align: center;
+    color: aliceblue;
+  }

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            background-color: cornflowerblue;
+            height: 200px;
+            width: 200px;
+            align-items: center;
+
+            transition-property: all;  /* background-color */
+            transition-duration: 1s;
+            transition-timing-function: ease-in;
+        }
+        .box:hover{
+            background-color: aliceblue;
+            height: 400px;
+            width: 400px;
+            border-radius: 100px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">This is box</div>
+      </div>
+</body>
+</html>

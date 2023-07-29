@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media</title>
+    <style>
+        .box{
+            font-size: 22px;
+            text-align: center;
+            background-color: antiquewhite;
+            color: #000;
+            display: none;
+        }
+        @media (max-width:300px){
+            #box1{
+                display: block;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+        }
+        @media (min-width:300px ) and (max-width:500px){
+            #box2{
+                display: block;
+                background-color: aqua;
+            }
+        }
+        @media (min-width:800px){
+            #box3{
+                display: block;
+                background-color: aqua;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="box" id="box1">Mai ek iphone hu</div>
+    <div class="box" id="box2">Mai ek computer hu</div>
+    <div class="box" id="box3">Mai ek tablet hu</div>
+    <div class="box" id="box4">Mai ek moniter hu</div>
+</body>
+</html>
