@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Events</title>
+    <style>
+      #btn {
+        padding: 5px;
+        color: rgb(229, 229, 221);
+        margin: 10px;
+        background-color: rgb(223, 141, 41);
+        border-radius: 10px;
+      }
+      #btn:hover{
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Heading</h1>
+      <p id="para">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum
+        labore vitae ducimus quasi nobis quia doloremque minus deleniti
+        explicabo eos deserunt neque, nihil perferendis recusandae totam
+        aspernatur alias nemo quo voluptatem expedita nulla. Maiores, quod odio?
+        Mollitia vel, at corrupti suscipit ea, non optio incidunt maiores
+        laudantium explicabo, officiis magnam! Molestias ipsa laudantium minus,
+        reprehenderit quas ullam iusto eos voluptatum alias maiores nisi iste
+        officiis ad velit. Praesentium quidem at aperiam voluptatibus laudantium
+        nesciunt, quaerat dolorem mollitia ipsa harum sapiente quasi illum
+        reprehenderit incidunt odit quo, repellendus neque optio. Nam labore
+        assumenda recusandae ducimus adipisci suscipit mollitia officia nesciunt
+        vitae, voluptatum, nobis, neque itaque sit blanditiis omnis officiis
+        accusamus beatae dignissimos. Deserunt totam aperiam repellat neque
+        aliquid fugiat earum quod sapiente provident inventore, molestiae quasi
+        debitis dolorem corporis error.
+      </p>
+    </div>
+    <button id="btn" onclick="hide()">Show/hide</button>
+
+    <script>
+        // para is taken from id not need to declare a variable even
+        // let para = document.getElementById("para");
+        para.addEventListener('mouseover',function run(){
+            alert('Mouse Inside')
+        });
+      function hide() {
+        let btn = document.getElementById("btn");
+        // let para = document.getElementById("para");
+        if ((para.style.display != "none")) {
+          para.style.display = "none";
+        } else {
+          para.style.display = "block";
+        }
+      }
+    </script>
+  </body>
+</html>
